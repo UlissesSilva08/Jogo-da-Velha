@@ -1,0 +1,54 @@
+p{
+  float: left;
+  margin-left: 50px;
+  margin-top: 15px;
+  margin-right: 10px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+img{
+  border: 0 solid #000;
+  height: 50px;
+}
+
+#mostrador{
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 25px;
+  width: 252px;
+  height: 80px;
+  transition: 0.50s;
+}
+
+.espaco{
+  width: 83.41px;
+  height: 83.41px;
+  border: 1px solid #0048FF;
+  float: left;
+  text-align: center;
+  padding-top: 15px;
+  transition: 0.50s;
+}
+
+.tabuleiro{
+  width: 252px;
+  height: 252px;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-0%,-0%);
+}
+
+body{
+  background: #34495e;
+  background-image: url("../fonts/back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tabuleiro{
+  border: 0.9px solid #3498db;
+  background: #191919;
+}
